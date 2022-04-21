@@ -117,7 +117,7 @@ let user = {
  
 function users(){
   if(user.isloggedin===true){
-    console.log(user.firstname ,user.lastname);
+    console.log(user.firstname+''+user.lastname);
   }else if(user.isloggedin===false){
     console.log('false');
   }
